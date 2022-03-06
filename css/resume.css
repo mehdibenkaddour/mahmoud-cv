@@ -1,0 +1,376 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+html {
+    background-color: #777;
+}
+#wrapper{
+    margin: 70px  auto;
+    max-width: 900px;
+    min-height: 320px;
+    
+    
+}
+section h2{
+    margin-right: 20px
+}
+
+header{
+    border:1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin-bottom: 0px;
+}
+
+header .nom{
+    margin: 45px 0 0 0;
+    text-align: center;
+    
+}
+header .nom h1{
+    margin: 0;
+}
+header .nom h2{
+    margin: 0;
+    
+}
+header .inf{
+    margin: 25px 0 0px 30px;
+    
+}
+img {
+    
+    float: right;
+    width: 15%;
+    height: 15%;
+    margin: 20px;
+   
+    
+}
+
+.globale{
+   
+    background-color: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+
+    
+}
+.qq{
+    display: flex;
+}
+.right{
+    
+    padding: 0 120px;
+    margin-bottom: 70px;
+    
+}
+.right h2{
+    font-size: 2em;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgb(20, 172, 199);
+}
+.right h3{
+    font-size: 1.5;
+    color: rgb(20, 172, 199);
+}
+.left{
+    background-color: rgb(20, 172, 199);
+    padding: 0px 30px; 
+}
+span{
+    color: rgb(20, 172, 199);
+
+}
+.lh{
+    color: black;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 8px;
+}
+
+.w{
+    margin-bottom: 0;
+    
+}
+.f{
+    text-align: center;
+    margin :8px 0;
+}
+
+.a{
+	width: 100%;
+	height: 9px;
+    margin: 0;
+	border: 1px solid black
+}
+.fr,.ar{
+	width: 90%;
+	background-color: red;
+	height: 9px;
+	animation: fr 2s;
+}
+.an{
+	width: 70%;
+	background-color: red;
+	height: 9px;
+	animation: an 2s;
+}
+
+@keyframes fr{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 90%
+	}
+}
+
+@keyframes an{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 70%
+	}
+}
+footer .social{
+	
+	color: #ffffff;
+    margin-left: 10px;
+	
+}
+footer .social a{
+	color: black;
+	text-decoration: none;
+	
+	border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px;
+	
+}
+footer .social a:hover{
+    color: rgb(20, 172, 199);
+    background-color: black;
+}
+.collapsible {
+  background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.collapsible1,.collapsible2,.collapsible3,.collapsible4,.collapsible5{
+  background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.collapsible1:after,.collapsible2:after,.collapsible3:after,.collapsible4:after,.collapsible5:after {
+  content: '\002B';
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2212";
+}
+.activee:after {
+  content: "\002B";
+}
+dl,.click1,.click2 {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+
+
+
+@media only screen and (max-width: 712px) {
+.left{
+   padding: 0px 10px; 
+}
+
+.globale{
+    width: 712px;
+    
+}
+header{
+   
+  width: 712px;
+    
+    
+}
+
+}
+
+
+@media only screen and (max-width: 425px) {
+
+.globale{
+    width: 360px;
+    font-size: 40%;
+    
+}
+header{
+    width: 360px;
+    margin-right: 28px;
+    
+}
+
+
+
+#wrapper{
+    margin: 28px  auto;
+    max-width: 360px;
+    min-height: 128px;
+    
+    
+    
+}
+
+
+header .nom{
+    margin: 18px 0 0 0;
+   
+    font-size: 40%;
+    
+}
+
+header .inf{
+    margin: 10px 0px 0px 12px;
+    font-size: 40%;
+    
+}
+img {
+    
+    float: right;
+    width: 15%;
+    height: 15%;
+    margin: 8px;
+   
+    
+}
+.right{
+    
+    padding: 0 48px;
+    margin-bottom: 28px;
+    
+}
+.left{
+    
+    padding: 0px 12px; 
+}
+
+}
+section h2{
+    margin-right: 8px
+}
+.a{
+    height: 3.33px;
+    
+}
+.fr,.ar{
+    width: 90%;
+    background-color: red;
+    height: 3.33px;
+    animation: fr 2s;
+}
+.an{
+    width: 70%;
+    background-color: red;
+    height: 3.33px;
+    animation: an 2s;
+}
+
+
+
+@media only screen and (max-width: 375px) {
+
+.globale{
+    width: 333px;
+    font-size: 40%;
+    
+}
+header{
+    width: 333px;
+    margin-right: 25.9px;
+    
+}
+
+
+#wrapper{
+    margin: 25.9px auto;
+    max-width: 330px;
+    min-height: 118px;
+    background-color: black;
+    
+    
+}
+
+
+header .nom{
+    margin: 16.65px 0 0 0;
+   
+    font-size: 40%;
+    
+}
+
+header .inf{
+    margin: 9.25px 0px 0px 11.1px;
+    font-size: 40%;
+    
+}
+img {
+    
+    margin: 7.4px;
+   
+    
+}
+.right{
+    
+    padding: 0 44.4px;
+    margin-bottom: 25.9px;
+    
+}
+.left{
+    
+    padding: 0px 11.1px; 
+}
+section h2{
+    margin-right: 7.4px
+}
+.a{
+    height: 3.33px;
+    
+}
+.fr,.ar{
+    width: 90%;
+    background-color: red;
+    height: 3.33px;
+    animation: fr 2s;
+}
+.an{
+    width: 70%;
+    background-color: red;
+    height: 3.33px;
+    animation: an 2s;
+}
+
+}
